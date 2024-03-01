@@ -9,7 +9,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/jordanehou/geo-july.git'
+                git branch: 'main', url: 'https://github.com/jordanehou/argo_logis_project.git'
             }
         }
         
